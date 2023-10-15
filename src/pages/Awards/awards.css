@@ -1,0 +1,57 @@
+.awardsTitle {
+  position: relative;
+  top: 3rem;
+  font-size: 3rem;
+  font-weight: 600;
+  padding-top: 5rem;
+  margin: 2rem;
+}
+
+.awardsTableContainer {
+  margin-top: 2rem;
+}
+
+table {
+  position: relative;
+  top: 5rem;
+  left: 6rem;
+  width: 80%;
+  border-collapse: inherit;
+  margin: 2rem;
+}
+
+table {
+  border: 5px solid rgb(175, 175, 175);
+  border-radius: 0.5rem;
+}
+
+th {
+  color: rgb(223, 223, 223);
+  background-color: #000550;
+  padding: 8px;
+  font-style: bold;
+  border: 1px solid rgb(175, 175, 175);
+  border-radius: 0.5rem;
+}
+
+td {
+  color: #000550;
+  background-color: rgb(145, 143, 143);
+  padding: 8px;
+  border: 1px solid rgb(175, 175, 175);
+  border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 450px) {
+  .mobMenu {
+    display: flex;
+  }
+  table {
+    position: relative;
+    top: 5rem;
+    left: 0.5rem;
+    width: 80%;
+    border-collapse: inherit;
+    margin: 2rem;
+  }
+}

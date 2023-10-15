@@ -1,0 +1,143 @@
+.interest {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+  text-align: justify;
+}
+
+.interestTitle {
+  position: relative;
+  left: 600px;
+  font-size: 3rem;
+  font-weight: 600;
+  padding-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.front-end {
+  position: relative;
+  top: 8rem;
+  right: 5rem;
+  flex-basis: 50%;
+  color: #000550;
+  background-color: #979797;
+  padding: 25px;
+  margin: 2rem;
+  border-radius: 3rem 0 3rem;
+}
+
+.ui-ux {
+  position: relative;
+  top: 8rem;
+  right: 5rem;
+  flex-basis: 50%;
+  color: #979797;
+  background-color: #000550;
+  padding: 25px;
+  margin: 2rem;
+  border-radius: 3rem 0 3rem;
+}
+
+.category-container h3 {
+  line-height: 3rem;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.front-end .category-container p {
+  font-size: 1rem;
+  line-height: 1.8rem;
+  text-align: justify;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.ui-ux .category-container p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: justify;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .interest {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .interestTitle {
+    left: 0;
+    text-align: center;
+  }
+
+  .front-end,
+  .ui-ux {
+    max-width: 80%;
+    position: static;
+    left: 2rem;
+    flex-basis: auto;
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: 0;
+  }
+
+  .category-container h3 {
+    text-align: center;
+  }
+
+  .front-end .category-container p,
+  .ui-ux .category-container p {
+    text-align: center;
+  }
+  .front-end {
+    position: relative;
+    top: 5rem;
+    right: 0;
+    flex-basis: 20%;
+    color: #000550;
+    background-color: #979797;
+    padding: 15px;
+    margin: 3rem;
+    border-radius: 3rem 0 3rem;
+  }
+
+  .ui-ux {
+    position: relative;
+    top: 5rem;
+    right: 0;
+    flex-basis: 20%;
+    color: #979797;
+    background-color: #000550;
+    padding: 15px;
+    margin: 3rem;
+    margin-bottom: 10rem;
+    border-radius: 3rem 0 3rem;
+  }
+}
+
+@media screen and (max-width: 458px) {
+  .interest {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .interestTitle {
+    left: 0;
+    text-align: center;
+  }
+
+  .front-end,
+  .ui-ux {
+    max-width: 80%;
+    position: static;
+    left: 2rem;
+    flex-basis: auto;
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: 0;
+    padding: 10px;
+    margin: 3rem;
+    border-radius: 3rem 0 3rem;
+  }
+}
